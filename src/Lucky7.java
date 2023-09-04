@@ -15,10 +15,18 @@ public class Lucky7 {
 			nro1 = rand.nextInt(7) + 1;
 			if(nro1 == 7) {
 				money = money + 3;
-				System.out.println("Voitit pelin");
+				System.out.println("Sait numeron " + nro1 + ". Voitit pelin");
 			}else {
-				System.out.println("Hävisit pelin");
+				System.out.println("Sait numeron " + nro1 + ". Hävisit pelin");
 				
+			}
+			System.out.println("Haluatko pelata uudestaan?");
+			System.out.println("Jos haluat pelata, paina Enter");
+			System.out.println("Jos et halua pelata, kirjoita e ja paina Enter");
+			String vastaus = scanner.nextLine();
+			if(vastaus.equals("e")){
+				System.out.println("Kiitos peleistä. Sinulle jäi rahaa " + money + " euroa");
+				break;
 			}
 		}
 	}
