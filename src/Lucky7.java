@@ -12,7 +12,7 @@ public class Lucky7 {
 		
 		while(money > 0) {
 			money--;
-			nro1 = rand.nextInt(7) + 1;
+			nro1 = rand.nextInt(10) + 1;
 			if(nro1 == 7) {
 				money = money + 3;
 				System.out.println("Sait numeron " + nro1 + ". Voitit pelin");
