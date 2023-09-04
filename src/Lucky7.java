@@ -42,11 +42,8 @@ public class Lucky7 {
 			if(vastaus.equals("e")){
 				System.out.println("Kiitos peleistä. Sinulle jäi rahaa " + money + " euroa");
 				System.exit(0);
-			}
-			
+			}			
 		}
 		System.out.println("Rahasi loppuivat");
-
 	}
-
 }
