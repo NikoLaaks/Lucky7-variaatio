@@ -41,9 +41,12 @@ public class Lucky7 {
 			String vastaus = scanner.nextLine();
 			if(vastaus.equals("e")){
 				System.out.println("Kiitos peleistä. Sinulle jäi rahaa " + money + " euroa");
-				break;
+				System.exit(0);
 			}
+			
 		}
+		System.out.println("Rahasi loppuivat");
+
 	}
 
 }
